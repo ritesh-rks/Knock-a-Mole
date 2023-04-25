@@ -16,7 +16,7 @@ let hitMusic = new Audio('../Assests/Assets_hitMusic.mp3');
 
 let yScore = 0;
 let hScore = 0;
-let timeLeft = 10;
+let timeLeft = 60;
 let hitPosition = null;
 let timerId = null;
 let randomMoleId = null;
@@ -74,7 +74,7 @@ const updateHighestScore = (score) => {
 function startNewGameButton(){
 
     yScore = 0;
-    timeLeft = 10;
+    timeLeft = 60;
     timeLefth3.style.display = 'block';
     pauseGame.style.display = 'block';
     yourScore.innerHTML = 'Your Score: 0';
