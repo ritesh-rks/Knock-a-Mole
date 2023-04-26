@@ -51,6 +51,7 @@ const countDown =() =>{
         clearInterval(randomMoleId);
         grid.style.display = 'none';
         gameMusic.pause();
+        gameMusic.currentTime = 0;
         timeLefth3.style.display = 'none';
         pauseGame.style.display = 'none';
         startGame.style.display = 'inline-block';
